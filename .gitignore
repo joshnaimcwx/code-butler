@@ -1,0 +1,65 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+*.iml
+*.lock
+*.log
+
+# Serverpod
+code_butler_server/.dart_tool/
+code_butler_server/.packages
+code_butler_server/.serverpod/
+code_butler_server/build/
+code_butler_server/*.iml
+
+# Flutter
+code_butler_flutter/.dart_tool/
+code_butler_flutter/.packages
+code_butler_flutter/.flutter-plugins
+code_butler_flutter/.flutter-plugins-dependencies
+code_butler_flutter/build/
+code_butler_flutter/*.iml
+code_butler_flutter/.idea/
+code_butler_flutter/ios/.symlinks/
+code_butler_flutter/ios/Pods/
+code_butler_flutter/android/.gradle/
+code_butler_flutter/android/app/build/
+
+# Client
+code_butler_client/.dart_tool/
+code_butler_client/.packages
+code_butler_client/build/
+code_butler_client/*.iml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+config/github_oauth.yaml
+config/gemini_api.yaml
+
+# Database
+*.db
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+
+# Generated files (will be regenerated)
+code_butler_client/lib/src/protocol/
+

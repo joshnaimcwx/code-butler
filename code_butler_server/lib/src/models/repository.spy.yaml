@@ -1,0 +1,12 @@
+class: Repository
+table: code_butler_repository
+fields:
+  name: String
+  url: String
+  owner: String
+  defaultBranch: String
+  lastReviewedAt: DateTime?
+indexes:
+  - fields: url
+    type: unique
+

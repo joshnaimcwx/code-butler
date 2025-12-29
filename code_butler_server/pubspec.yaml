@@ -1,0 +1,14 @@
+name: code_butler_server
+description: Serverpod server for code_butler
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  serverpod: ^3.0.0
+  serverpod_shared: ^3.0.0
+
+dev_dependencies:
+  serverpod_cli: ^3.0.0
+  test: ^1.24.0
+

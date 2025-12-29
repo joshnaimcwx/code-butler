@@ -1,0 +1,9 @@
+name: code_butler_client
+description: Auto-generated Serverpod client for code_butler
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  serverpod_client: ^3.0.0
+
